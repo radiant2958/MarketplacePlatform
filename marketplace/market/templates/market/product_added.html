@@ -1,0 +1,7 @@
+{% extends 'market/base.html' %}
+
+{% block content %}
+<h2>Товар добавлен</h2>
+<p>Товар "{{ product.name }}" был успешно добавлен.</p>
+<a href="{% url 'seller' %}">Вернуться на главную страницу продавца</a>
+{% endblock %}

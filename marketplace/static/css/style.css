@@ -1,0 +1,57 @@
+
+.entrance {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+}
+.menu-bar {
+            background-color: #343a40;
+            padding: 10px;
+}
+.menu-item {
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+}
+.menu-item.orange:hover {
+            background-color: orange;
+}
+.title {
+            text-align: center;
+            padding: 50px;
+}
+
+.menu-bar, .footer-bar {
+            background-color: #343a40;
+            padding: 10px;
+            color: white;
+            text-align: center;
+}
+.menu-item {
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+}
+.menu-item.orange:hover {
+            background-color: orange;
+}
+.title {
+            text-align: center;
+            padding: 50px;
+}
+.content {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.footer-bar {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+}
+
+    

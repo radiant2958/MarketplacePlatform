@@ -1,0 +1,14 @@
+{% extends 'market/base.html' %}
+
+{% block content %}
+<p>Это ваш личный кабинет</p>
+<h2>Мои товары</h2>
+<ul>
+    {% for product in products %}
+    <li>
+        {{ product.name }} - {{ product.price }} - {{ product.quantity }} шт.
+    </li>
+    {% endfor %}
+</ul>
+<a href="{% url 'add_product' %}">Добавить новый товар</a>
+{% endblock %}
